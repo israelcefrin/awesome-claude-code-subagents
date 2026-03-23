@@ -1,3 +1,14 @@
 {
-  "sample": true
+  "wcag20_findings": [
+    {
+      "criterion": "1.2.2",
+      "description": "Missing captions for prerecorded video"
+    }
+  ],
+  "wcag21_findings": [
+    {
+      "criterion": "1.3.5",
+      "description": "Form input purpose not programmatically defined"
+    }
+  ]
 }
