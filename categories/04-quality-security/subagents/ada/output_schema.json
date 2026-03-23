@@ -1,3 +1,10 @@
 {
-  "example": true
+  "type": "object",
+  "properties": {
+    "ada_mapped_results": { "type": "array" },
+    "deadline": { "type": "string" },
+    "risk_level": { "type": "string" },
+    "remediation": { "type": "array" },
+    "verdict": { "type": "string" }
+  }
 }
