@@ -1,3 +1,9 @@
 {
-  "sample": true
+  "wcag_findings": [
+    {
+      "criterion": "1.4.3",
+      "description": "Contrast ratio too low"
+    }
+  ],
+  "product_type": "ecommerce"
 }
