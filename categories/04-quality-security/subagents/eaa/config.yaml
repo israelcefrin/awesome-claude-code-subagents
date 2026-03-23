@@ -1,2 +1,7 @@
 name: eaa_compliance_checker
-version: 1.0.0
+description: >
+  Maps WCAG 2.1 AA findings to EN 301 549 and evaluates EAA compliance risk.
+entrypoint: eaa/system_prompt.txt
+input_schema: eaa/input_schema.json
+output_schema: eaa/output_schema.json
+version: "1.0.0"
