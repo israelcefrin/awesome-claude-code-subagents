@@ -1,2 +1,9 @@
 name: ada_title_ii_compliance_checker
-version: 1.0.0
+description: >
+  Evaluates WCAG 2.1 AA findings to determine compliance with ADA Title II 2024 rule.
+  Incorporates deadlines: 2026 (≥50k population) and 2027 (<50k population).
+
+entrypoint: ada/system_prompt.txt
+input_schema: ada/input_schema.json
+output_schema: ada/output_schema.json
+version: "1.0.0"
