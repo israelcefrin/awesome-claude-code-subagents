@@ -1,0 +1,22 @@
+name: accessibility_router
+description: Routes WCAG findings to legislation-specific subagents.
+version: "1.0.0"
+
+subagents:
+  - ada_title_ii_compliance_checker
+  - eaa_compliance_checker
+  - aoda_compliance_checker
+  - rgaa_compliance_checker
+
+routing_rules:
+  - when: "jurisdiction == 'USA-ADA'"
+    route_to: ada_title_ii_compliance_checker
+
+  - when: "jurisdiction == 'EU-EAA'"
+    route_to: eaa_compliance_checker
+
+  - when: "jurisdiction == 'CA-AODA'"
+    route_to: aoda_compliance_checker
+
+  - when: "jurisdiction == 'FR-RGAA'"
+    route_to: rgaa_compliance_checker
