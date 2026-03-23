@@ -1,3 +1,14 @@
 {
-  "example": true
+  "type": "object",
+  "properties": {
+    "wcag_findings": {
+      "type": "array",
+      "description": "List of WCAG 2.1 AA violations already discovered."
+    },
+    "entity_population": {
+      "type": "number",
+      "description": "Population size to determine compliance deadline."
+    }
+  },
+  "required": ["wcag_findings", "entity_population"]
 }
