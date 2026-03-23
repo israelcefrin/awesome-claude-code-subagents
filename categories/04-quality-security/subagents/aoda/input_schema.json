@@ -1,3 +1,8 @@
 {
-  "example": true
+  "type": "object",
+  "properties": {
+    "wcag20_findings": { "type": "array" },
+    "wcag21_findings": { "type": "array" }
+  },
+  "required": ["wcag20_findings"]
 }
