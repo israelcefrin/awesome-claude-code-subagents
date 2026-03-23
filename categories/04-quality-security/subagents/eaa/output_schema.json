@@ -1,3 +1,9 @@
 {
-  "example": true
+  "type": "object",
+  "properties": {
+    "en301549_mapping": { "type": "array" },
+    "eaa_risk_level": { "type": "string" },
+    "remediation": { "type": "array" },
+    "verdict": { "type": "string" }
+  }
 }
