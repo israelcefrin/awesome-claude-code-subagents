@@ -1,3 +1,8 @@
 {
-  "example": true
+  "type": "object",
+  "properties": {
+    "rgaa_results": { "type": "array" },
+    "overall_score": { "type": "number" },
+    "verdict": { "type": "string" }
+  }
 }
