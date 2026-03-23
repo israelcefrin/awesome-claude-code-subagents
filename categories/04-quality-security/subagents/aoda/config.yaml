@@ -1,2 +1,7 @@
 name: aoda_compliance_checker
-version: 1.0.0
+description: >
+  Evaluates AODA compliance using WCAG 2.0 AA and WCAG 2.1 AA depending on content.
+entrypoint: aoda/system_prompt.txt
+input_schema: aoda/input_schema.json
+output_schema: aoda/output_schema.json
+version: "1.0.0"
