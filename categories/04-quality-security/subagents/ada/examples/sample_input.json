@@ -1,3 +1,15 @@
 {
-  "sample": true
+  "wcag_findings": [
+    {
+      "criterion": "1.1.1",
+      "description": "Image missing alt text",
+      "severity": "critical"
+    },
+    {
+      "criterion": "2.4.7",
+      "description": "Focus indicator not visible",
+      "severity": "major"
+    }
+  ],
+  "entity_population": 75000
 }
