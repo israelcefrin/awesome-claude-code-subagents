@@ -1,2 +1,7 @@
 name: rgaa_compliance_checker
-version: 1.0.0
+description: >
+  Performs native RGAA 4.x rule/criterion/test analysis and maps to WCAG 2.1 AA.
+entrypoint: rgaa/system_prompt.txt
+input_schema: rgaa/input_schema.json
+output_schema: rgaa/output_schema.json
+version: "1.0.0"
