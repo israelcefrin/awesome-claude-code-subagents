@@ -1,3 +1,8 @@
 {
-  "example": true
+  "type": "object",
+  "properties": {
+    "aoda_impact": { "type": "array" },
+    "remediation": { "type": "array" },
+    "verdict": { "type": "string" }
+  }
 }
