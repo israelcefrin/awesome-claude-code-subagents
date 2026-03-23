@@ -1,3 +1,23 @@
 {
-  "sample": true
+  "rgaa_tests_to_run": [
+    "1.1.1",
+    "3.2.1"
+  ],
+  "extracted_content_blocks": [
+    {
+      "id": "header-logo",
+      "type": "image",
+      "src": "logo.png",
+      "alt": ""
+    },
+    {
+      "id": "main-nav",
+      "type": "nav",
+      "items": [
+        "Home",
+        "About",
+        "Contact"
+      ]
+    }
+  ]
 }
