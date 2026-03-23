@@ -1,3 +1,14 @@
 {
-  "example": true
+  "type": "object",
+  "properties": {
+    "rgaa_tests_to_run": {
+      "type": "array",
+      "description": "List of RGAA rule/test identifiers to evaluate."
+    },
+    "extracted_content_blocks": {
+      "type": "array",
+      "description": "Snippets or elements from the page."
+    }
+  },
+  "required": ["rgaa_tests_to_run", "extracted_content_blocks"]
 }
